@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="drawer_list">
+        <!--/**  Start-->
+        <!--* Changes for version - V1.4-->
+        <!--* Developer  - Shyam-->
+        <!--* changes -List update-->
+        <!--*/-->
+
+        <item>Home</item>
+        <!--<item>Tracking</item>-->
+        <item>Contacts</item>
+        <!--<item>Lead</item>-->
+        <item>Executive</item>
+        <item>Add Activity</item>
+        <item>Expense</item>
+        <item>Leave</item>
+        <!--<item>Quotation</item>-->
+        <item>Data Collection</item>
+        <!--<item>Chatter</item>-->
+        <item>Sync Data</item>
+
+        /**  Start
+        * Changes for version - V1.4
+        * Developer  - SHyam
+        * Changes  - Chatter
+        */
+        <item>Online Support</item>
+        <item>Privacy Policy</item>
+
+        <item>Deactivate</item>
+
+        <!--<item>Secondary Sale</item>-->
+
+
+        <!--<item>Mapszen</item>-->
+        <!--<item>Settings</item>-->
+
+
+    </string-array>
+
+    <string-array name="opportunity_drawer_list">
+        <!--/**  Start-->
+        <!--* Changes for version - V1.4-->
+        <!--* Developer  - Shyam-->
+        <!--* changes -List update-->
+        <!--*/-->
+
+        <item>Home</item>
+        <!--<item>Tracking</item>-->
+        <item>Contacts</item>
+        <item>Opportunity</item>
+        <item>Executive</item>
+        <item>Add Activity</item>
+        <item>Expense</item>
+        <item>Leave</item>
+        <!--<item>Quotation</item>-->
+        <item>Data Collection</item>
+        <!--<item>Chatter</item>-->
+        <item>Sync Data</item>
+
+        /**  Start
+        * Changes for version - V1.4
+        * Developer  - SHyam
+        * Changes  - Chatter
+        */
+        <item>Online Support</item>
+        <item>Privacy Policy</item>
+
+        <item>Deactivate</item>
+
+        <!--<item>Secondary Sale</item>-->
+
+
+        <!--<item>Mapszen</item>-->
+        <!--<item>Settings</item>-->
+
+
+    </string-array>
+
+
+    <string-array name="drawer_list_with_order">
+
+        <item>Home</item>
+        <!--<item>Tracking</item>-->
+        <item>Contacts</item>
+        <!--<item>Lead</item>-->
+        <item>Executive</item>
+        <item>Add Activity</item>
+        <item>Expense</item>
+        <item>Leave</item>
+        <!--<item>Order</item>-->
+        <!--<item>Quotation</item>-->
+        <item>Data Collection</item>
+        <!--<item>Chatter</item>-->
+        <item>Sync Data</item>
+        <item>Online Support</item>
+        <item>Privacy Policy</item>
+        <item>Deactivate</item>
+
+    </string-array>
+
+    <string-array name="opportunity_drawer_list_with_order">
+
+        <item>Home</item>
+        <item>Contacts</item>
+        <item>Opportunity</item>
+        <item>Executive</item>
+        <item>Add Activity</item>
+        <item>Expense</item>
+        <item>Leave</item>
+        <item>Order</item>
+        <item>Data Collection</item>
+        <item>Sync Data</item>
+        <item>Online Support</item>
+        <item>Privacy Policy</item>
+        <item>Deactivate</item>
+    </string-array>
+
+
+    <string-array name="drawer_menu_icon">
+
+        <item>@drawable/ic_home_black_24dp</item>
+        <!--<item>@drawable/ic_location_on_black_24dp</item>-->
+        <item>@drawable/ic_customer</item>
+        <!--<item>@drawable/lead_icon</item>&lt;!&ndash;  //for Lead &ndash;&gt;-->
+        <item>@drawable/execc</item>
+        <item>@drawable/ic_appointment</item>
+        <item>@drawable/ic_expenses</item>
+        <item>@drawable/ic_leave</item>
+        <!--<item>@drawable/ic_format_quote_white_24dp</item>-->
+        <item>@drawable/ic_collection</item><!--  //for data Collection -->
+        <!--<item>@drawable/chatter</item>-->
+        <item>@drawable/ic_syncc</item>
+
+        /**  Start
+        * Changes for version - V1.2
+        * Developer  - Shyam
+        * Changes  - Chatter
+        */
+        <item>@drawable/online_help</item>
+        <item>@drawable/ic_assism</item>
+
+        <!--/**  End-->
+        <!--* Changes for version - V1.2-->
+        <!--*/-->
+        <item>@drawable/logoutt</item>
+
+        <!--<item>@drawable/ic_order_icon</item>-->
+
+
+
+    </string-array>
+
+</resources>

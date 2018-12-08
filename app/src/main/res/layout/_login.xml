@@ -1,0 +1,95 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <!--<import type="android.view.View" />-->
+
+        <variable
+            name="hint"
+            type="shyam.ram.advance.view_model.LoginView" />
+        <variable
+            name="interfaces"
+            type="shyam.ram.advance.interfaces.Login" />
+    </data>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/splashBg"
+        android:fillViewport="true"
+        android:scrollbars="none"
+        tools:context=".activity.LoginActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal|center_vertical"
+                android:orientation="vertical"
+                android:padding="35dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:contentDescription="@string/logo"
+                    android:src="@drawable/treasure_hunt_logo" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/et_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#11000000"
+                        android:drawableStart="@drawable/ic_account"
+                        android:textSize="17sp"
+                        android:hint="@{hint.usernameHint}"
+                        android:inputType="textPersonName"
+                        android:padding="5dp"
+                        android:fontFamily="@font/sam"
+                        android:textColorHint="@color/white"
+                        android:text="@{hint.username}"/>
+
+                    <EditText
+                        android:id="@+id/et_password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/et_bg"
+                        android:drawableStart="@drawable/ic_lock"
+                        android:textSize="17sp"
+                        android:fontFamily="@font/sam"
+                        android:hint="@{hint.passwordHint}"
+                        android:inputType="textPassword"
+                        android:padding="5dp"
+                        android:text="@{hint.password}"
+                        android:textColorHint="@color/white" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/bt_bg"
+                android:text="@string/login"
+                android:textSize="17sp"
+                android:onClick="@{(view)->interfaces.onClickLogin()}"
+                android:textColor="@color/white"
+                android:fontFamily="@font/sam"/>
+
+        </LinearLayout>
+    </ScrollView>
+</layout>
